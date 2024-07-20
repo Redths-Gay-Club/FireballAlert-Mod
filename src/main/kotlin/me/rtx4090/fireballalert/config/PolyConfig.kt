@@ -7,7 +7,7 @@ import cc.polyfrost.oneconfig.config.data.ModType
 import me.rtx4090.fireballalert.FireballAlert
 import me.rtx4090.fireballalert.hud.IncHud
 
-object PolyConfig : Config(Mod(FireballAlert.NAME, ModType.UTIL_QOL, "/mod-icon.png"), FireballAlert.MODID + ".json") {
+object PolyConfig : Config(Mod(FireballAlert.NAME, ModType.HYPIXEL, "/mod-icon.png"), FireballAlert.MODID + ".json") {
 
     @Switch(
         name = "Fireball Alert"
